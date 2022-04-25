@@ -1,0 +1,66 @@
+
+    body{
+        background-image: url(fundo/fundo4.jpg);
+        background-attachment: fixed;
+    }
+
+    /*cabecalho*/
+    .cabecalho{
+        text-align: center;
+        font-family: 'brandoll', 'Arial';
+        font-size: 50px;
+        color: black;
+        
+    }
+
+    /*botoes de navegacao*/
+    header .botao{
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        margin-top: 50px;
+        background-color: blue;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+    header nav a:hover{
+        color: red;
+    }
+    header nav a{
+        text-decoration: none;
+        color: grey;
+        background-color: brown;
+        padding: 4px;
+        border-radius: 15px;
+    }
+    /*=======================*/
+
+    /*textos*/
+    .texto{
+        background-color: rgb(219, 213, 213);
+        box-shadow: 1px 1px 15px 1px black;
+        padding: 9px;
+        border-radius: 10px;
+        text-align: justify;
+        margin: 10px;
+    }
+    /*=======================*/
+    @font-face{ /*fonte expecifica*/
+        font-family: 'brandoll';
+        src: url(fontes/designer/DESIGNER.otf) format('opentype'); /*opentype(para formato OTF) truetype(para formato TTF)*/
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    img{
+        background-color: rgb(250, 255, 255);
+        padding: 3px;
+        box-shadow: 1px 1px 15px 1px rgb(184, 180, 180);
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        display: block;
+        margin-top: 25px;
+        margin-left: auto;
+        margin-right:auto;  
+    }
